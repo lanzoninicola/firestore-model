@@ -1,3 +1,4 @@
-import createFirestoreModel from "./lib/factories/create-firestore-model.server";
+import createFirestoreConnection from "./create-firestore-connection";
+import initializeFirestoreModel from "./initialize-firestore-model";
 
-export { createFirestoreModel };
+export { createFirestoreConnection, initializeFirestoreModel };

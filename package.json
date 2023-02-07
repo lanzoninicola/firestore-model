@@ -14,7 +14,9 @@
     "url": "git+https://github.com/lanzoninicola/firestore-model.git"
   },
   "keywords": [
-    "firestore"
+    "firestore",
+    "model",
+    "database"
   ],
   "author": "Lanzoni Nicola",
   "license": "MIT",

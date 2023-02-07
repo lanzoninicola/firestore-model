@@ -8,7 +8,7 @@ Tiny library to help you use Firestore with your models.
 
 In your project, you need to create a file to initialize the connection with firestore.
 
-´´´js
+```
 // firestore.config.ts
 import { createFirestoreConnection, initializeFirestoreModel } from "../modules/firestore-models";
 
@@ -22,11 +22,11 @@ configDev: firebaseConfigProd,
 const createFirestoreModel = initializeFirestoreModel(connection);
 
 export default createFirestoreModel;
-´´´
+```
 
 After that, you can create your models based on the interface you want.
 
-´´´js
+```
 // user.model.ts
 import { createFirestoreModel } from "../../modules/firestore-models";
 
@@ -46,7 +46,7 @@ updatedAt: string;
 const clientModel = createFirestoreModel<ClientModel>("clients");
 
 export default clientModel;
-´´´
+```
 
 ## TODO
 

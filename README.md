@@ -15,8 +15,8 @@ import { createFirestoreConnection, initializeFirestoreModel } from "../modules/
 import firebaseConfigProd from "./environment.json";
 
 const connection = createFirestoreConnection({
-configProd: firebaseConfigProd,
-configDev: firebaseConfigProd,
+    configProd: firebaseConfigProd,
+    configDev: firebaseConfigProd,
 });
 
 const createFirestoreModel = initializeFirestoreModel(connection);
@@ -31,16 +31,16 @@ After that, you can create your models based on the interface you want.
 import { createFirestoreModel } from "../../modules/firestore-models";
 
 export interface ClientModel {
-id: string | null;
-name: string;
-username: string;
-password: string;
-status: string;
-phoneNumber1: string;
-phoneNumber2: string;
-contactName: string;
-createdAt: string;
-updatedAt: string;
+    id: string | null;
+    name: string;
+    username: string;
+    password: string;
+    status: string;
+    phoneNumber1: string;
+    phoneNumber2: string;
+    contactName: string;
+    createdAt: string;
+    updatedAt: string;
 }
 
 const clientModel = createFirestoreModel<ClientModel>("clients");

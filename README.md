@@ -13,6 +13,10 @@ Tiny library to help you use Firestore with your models.
 
 The JSON configuration will be downloaded and it should be used inside the module
 
+### Useful Links
+https://firebase.google.com/docs/web/setup
+https://firebase.google.com/docs/web/learn-more#config-object
+
 # TODO
 
 [ ] Adding test

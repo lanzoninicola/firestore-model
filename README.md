@@ -15,6 +15,7 @@ The JSON configuration will be downloaded and it should be used inside the modul
 
 ### Useful Links
 https://firebase.google.com/docs/web/setup
+
 https://firebase.google.com/docs/web/learn-more#config-object
 
 # TODO

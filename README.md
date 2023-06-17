@@ -18,6 +18,8 @@ https://firebase.google.com/docs/web/setup
 
 https://firebase.google.com/docs/web/learn-more#config-object
 
+https://firebase.google.com/docs/projects/learn-more#config-files-objects
+
 # TODO
 
 [ ] Adding test
